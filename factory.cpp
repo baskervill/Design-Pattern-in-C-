@@ -57,7 +57,7 @@ public:
 
 class Factory{
 public:
-    SingleCore* CreateSingleCore() = 0;
+    virtual SingleCore* CreateSingleCore() = 0;
 };
 
 class FactoryA : public Factory{
